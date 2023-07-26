@@ -13,7 +13,7 @@ class Solution:
             #          max = arr[i]
             #          answer = answer + 1
             # return answer 
-            newCount = 0
+            
             if len(arr) != 0:
                  count = 1
                  newCount = 0
@@ -25,7 +25,7 @@ class Solution:
                            newCount += 1
             else:
                  count = 0
-
+                 newCount = 0
             return count + newCount
             pass
 
