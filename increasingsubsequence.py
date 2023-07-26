@@ -25,7 +25,7 @@ class Solution:
                            newCount += 1
             else:
                  count = 0
-                 newCount = 0
+                 #newCount = 0
             return count + newCount
             pass
 
