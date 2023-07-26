@@ -26,7 +26,8 @@ class Solution:
             else:
                  count = 0
                  #newCount = 0
-            return count + newCount
+            answer = count + newCount
+            return answer 
             pass
 
 def main():
