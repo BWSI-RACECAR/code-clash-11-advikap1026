@@ -14,7 +14,7 @@ class Solution:
             #          answer = answer + 1
             # return answer 
             newCount = 0
-            if len(arr) == 0:
+            if len(arr) != 0:
                  count = 1
                  newCount = 0
                  for i in range(1, len(arr)):
