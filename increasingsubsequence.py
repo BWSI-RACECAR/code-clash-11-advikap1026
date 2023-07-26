@@ -5,14 +5,27 @@ class Solution:
             
             #TODO: Write code below to return an int with the solution to the prompt.
             #arr = arr.sort()
-            answer = 1
-            max = 0
-            max = arr[0]
-            for i in range(len(arr)):
-                if arr[i] > max:
-                     max = arr[i]
-                     answer = answer + 1
-            return answer 
+            # answer = 1
+            # max = 0
+            # max = arr[0]
+            # for i in range(len(arr)):
+            #     if arr[i] > max:
+            #          max = arr[i]
+            #          answer = answer + 1
+            # return answer 
+            if len(arr) == 0:
+                 count = 1
+                 newCount = 0
+                 for i in range(1, len(arr)):
+                      if(arr[i]>arr[i-1]):
+                           count += 1
+                      else:
+                           count = 1
+                           newCount += 1
+            else:
+                 count = 0
+
+            return count + newCount
             pass
 
 def main():
